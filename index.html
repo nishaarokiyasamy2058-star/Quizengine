@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz Engine</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="quiz-box">
+    <h2 id="question">Question will appear here</h2>
+
+    <div class="option">
+      <input type="radio" name="option" id="opt0">
+      <label for="opt0" id="label0">Option 1</label>
+    </div>
+
+    <div class="option">
+      <input type="radio" name="option" id="opt1">
+      <label for="opt1" id="label1">Option 2</label>
+    </div>
+
+    <div class="option">
+      <input type="radio" name="option" id="opt2">
+      <label for="opt2" id="label2">Option 3</label>
+    </div>
+
+    <div class="option">
+      <input type="radio" name="option" id="opt3">
+      <label for="opt3" id="label3">Option 4</label>
+    </div>
+
+    <button onclick="nextQuestion()">Next</button>
+  </div>
+
+  <!-- IMPORTANT: script must be at the bottom -->
+  <script src="script.js"></script>
+</body>
+</html>
